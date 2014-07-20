@@ -70,14 +70,14 @@
 		<div class="row">
 			<div class="large-12 columns">
 				<h1 style="color: #FFF; text-shadow: 0px 1px 0px #000;">
-					Visualizing Xively Feeds
+					Melt Sandwich Temperature Feeds
 				</h1>
 			</div>
 		</div>
 	</div>
 	<!-- Form -->
-	<div id="form" style="background: #F0F0F0; border-bottom: 1px solid #CCC; padding: 25px; padding-bottom: 15px;">
-		<div class="row">
+	<div id="form" style="background: #F0F0F0; border-bottom: 1px solid #CCC; padding: 25px; padding-bottom: 15px; display: none" >
+		<div class="row" style="visibility: hidden">
 			<div class="large-5 columns">
 				<div class="row collapse">
 					<div class="small-3 columns">
@@ -109,7 +109,7 @@
 	<div id="xivelyContent" style="position: relative;">
 		<a href="https://github.com/xively/channel-viz" class="hide-for-medium hide-for-small"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 		<div id="welcome">
-			<div class="row">
+			<div class="row" >
 				<div class="large-1 columns">&nbsp;</div>
 				<div class="large-10 columns text-center">
 					<br/><br/><br/><br/><br/><br/><br/>
@@ -231,7 +231,7 @@
 		</div>
 		<div id="feeds">
 			<div class="feed hidden" id="exampleFeedNotFound" style="line-height: 25px; padding-top: 25px;">
-				<div class="row title">
+				<div class="row title" style="display: none">
 					<div class="large-12 columns">
 						<h2 class="subheader value">Loading Feed Data...</h2>
 
@@ -242,12 +242,12 @@
 				</div>
 			</div>
 			<div class="feed hidden" id="exampleFeed" style="line-height: 25px; padding-top: 25px;">
-				<div class="row title">
+				<div class="row title" style="display: none">
 					<div class="large-12 columns">
 						<h2 class="subheader value">Loading Feed Data...</h2>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" style="display: none">
 					<div class="large-7 columns">
 						<h4 class="subheader">Meta</h4>
 						<div class="row id">
